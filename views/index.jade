@@ -1,5 +1,8 @@
 extends layout
 
+append head
+  link(rel='stylesheet', href='/stylesheets/index.css')
+
 block content
-  h1= title
+  h1= Weather
   p Welcome to #{title}
