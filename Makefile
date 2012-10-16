@@ -3,3 +3,5 @@ sass:
 
 watch:
 	sass --watch public/scss:public/stylesheets
+
+.PHONY: sass watch
