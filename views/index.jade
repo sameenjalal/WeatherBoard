@@ -1,8 +1,10 @@
-extends layout
+extends layouts/default
 
-//-append head
-  //-link(rel='stylesheet', href='/stylesheets/index.css')
+append head
+  link(rel='stylesheet', href='/stylesheets/index.css')
+  title Weatherboard
 
-//-block content
-.group.col
-  h1= "Weather"
+block content
+  .group.col
+    .center
+      h1= "Weather"
